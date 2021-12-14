@@ -1,0 +1,122 @@
+body, html {
+	height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container_ip{
+    min-height: 50vh;
+    width: 60%;
+    margin-left: 20%;
+    align-items: center;
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 80px;
+    background-position: center;
+    justify-content: center;
+    
+}
+
+button.btn{
+	outline: none;
+	border: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+
+.wrapbox {
+    width: auto;
+    max-width: 60%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+.formcontrol{
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color:gray;
+}
+.form-1{
+    align-self: auto;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.table-form{
+   width: 1200px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.display{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: -50px;
+}
+
+  /* ANIMAÇÃO */
+
+  .animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top:95px;
+    margin-bottom:60px;
+    -webkit-animation-duration: 10s;
+    animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+  }
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+  .display-6{
+    margin-top: 50px;
+  }
+  .card{
+    align-items: center;
+    border-color: transparent;
+    margin-bottom: 40px;
+    margin-top: -50px;
+  }
+  
+  @media (max-width: 768px) {
+    .wrapbox {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  
+  @media (max-width: 576px) {
+    .wrapbox {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  }
+  
